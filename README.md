@@ -22,11 +22,10 @@ To enable the serving system to hook on augmentation calls, register your aug-st
 
 ```python
 def get_api_stop_strings() -> List[str]:
-  return ["<TOOLFORMER_API_RESPONSE>", "<Step token 2>"]
+  return ["<stop token 1>", "<stop token 2>"]
 ```
 
 To reproduce paper results, check `exps` folder.
-
 ## Citation
 
 If you use InferCept for your research, please cite our paper:
@@ -38,5 +37,7 @@ Inferencing},
   author={Reyna Abhyankar and Zijian He and Vikranth Srivatsa and Hao Zhang and Yiying Zhang},
   booktitle={Forty-first International Conference on Machine Learning},
   year={2024},
+  month=Jul,
+  address={Vienna, Austria},
 }
 ```

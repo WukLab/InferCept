@@ -1,2 +1,0 @@
-CUDA_VISIBLE_DEVICES=6 python benchmark_api_simu.py --mixed --num-prompts 500 --log waste_heuristic.log --api-policy W --swap-space 128 --load-format dummy > waste.log &
-CUDA_VISIBLE_DEVICES=7 python benchmark_api_simu.py --mixed --num-prompts 500 --log waste_heuristic.log --api-policy H --heuristic-coef 10 --swap-space 128 --load-format dummy > heuristic.log
