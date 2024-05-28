@@ -25,7 +25,7 @@ def get_api_stop_strings() -> List[str]:
   return ["<TOOLFORMER_API_RESPONSE>", "<Step token 2>"]
 ```
 
-To reproduce paper results, check
+To reproduce paper results, check `exps` folder.
 
 ## Citation
 
