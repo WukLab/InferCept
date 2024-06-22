@@ -1,7 +1,7 @@
 
 <h1 align="center">
-INFERCEPT: Efficient Intercept Support for Large-Language Model
-Inferencing
+INFERCEPT: Efficient Intercept Support for Augmented Large Language Model
+Inference
 </h1>
 
 <!-- <p align="center"> -->
